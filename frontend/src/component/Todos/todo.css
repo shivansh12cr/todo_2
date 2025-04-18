@@ -1,0 +1,67 @@
+.todo{
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    position: relative;
+}
+
+.todo-inputs{
+    border: none;
+    outline: none;
+}
+
+.todo-inputs-div{
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+
+#textarea{
+    display: none;
+}
+.btn-signUp{
+    background-color: rgb(204, 56, 2);
+    color: white;
+    outline: none;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.todo-card{
+    border : 1px solid black;
+}
+
+.todo-card p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.icon{
+    font-size: 20px;
+    cursor: pointer;
+}
+.del{
+    color: red;
+}
+.icon-head{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.icon-head:hover{
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    transition: all 0.3s;
+}
+.todo-update{
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    height: 80vh;
+    top: 80px;
+    left :0px;
+    background-color: rgba(221, 85, 17, 0.905);
+    display: none;
+}
+
+.update{
+    height: 100%;;
+}

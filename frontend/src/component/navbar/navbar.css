@@ -1,0 +1,21 @@
+.user-png{
+    width: 30px;
+    height: 30px;
+}
+.navbar-brand{
+    color: rgb(204, 56, 2);
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+}
+.btn-nav {
+    background-color: rgb(204, 56, 2);
+    border: none;
+    border-radius: 5px;
+    color: aliceblue !important;
+    font-weight: bold;
+    padding: 8px 16px;
+    cursor: pointer;
+}

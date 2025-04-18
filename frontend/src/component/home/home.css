@@ -1,0 +1,18 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(243, 210, 193);
+}
+.home h1{
+    font-size: 60px;
+}
+
+.home-btn{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: rgb(204, 56, 2);
+    border-radius: 5px;
+    color: aliceblue !important;
+    font-weight: bold;
+}
